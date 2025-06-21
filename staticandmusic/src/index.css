@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+body,#root{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+header{
+    height: 14%;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    font-size: 20px;
+}
+section{
+    height: 86%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+aside{
+    height: 98%;
+    width: 38%;
+    background-color: darkgray;
+}
+main{
+    height: 98%;
+    width: 60%;
+    background-color: darkgray;
+}
+
+#navLeft{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navCenter{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navRight{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
