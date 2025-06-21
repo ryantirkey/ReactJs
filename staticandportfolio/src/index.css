@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, #root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+    font-family:cursive;
+    animation-name: small;
+    animation-duration: 1s;
+    /* background-color: black; */
+    background-image: linear-gradient(darkgray, black);
+
+}
+@keyframes small {
+    from{
+        transform: scale(0,0);
+    }
+    to{
+        transform: scale(100vh,100vw);
+    }
+    
+}
+#maindiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#left{
+    height: 98%;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkgray; */
+    border-radius: 10px;
+    background-image: linear-gradient(black, darkgray);
+}
+#img{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#list{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    margin: 5px;
+    font-size: 25px;
+}
+#foot{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right{
+    height: 98%;
+    width: 60%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: darkgray; */
+    background-image: linear-gradient(black, darkgray);
+    border-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+}
+#name{
+    padding-top: 10px;
+    font-size: 30px;
+    text-decoration-line:underline ;
+}
+h1{
+    font-size: 100px;
+
+    
+}
+h2{
+    font-size: 50px;
+   
+    text-decoration-style:solid ;
+    text-decoration-color: red;
+}
+#soft{
+    text-decoration-line:underline overline;
+}
+button{
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    color: white;
+    border-color: red;
+    animation-name: shake;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes shake {
+    0%{
+       transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+   
+    75%{
+        transform: rotate(-3deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
