@@ -1,0 +1,24 @@
+[
+    {
+        "course":"Java Full stack",
+        "technologies":["java","webteck","sql"],
+        "fee":20000,
+        "trainers":{
+            "main":"Amit sir",
+            "webtech":"Maneesha mam",
+            "sql":"shivu sir"
+        }
+    },
+    {
+        "course":"Python Full stack",
+        "technologies":["Python","webteck","sql"],
+        "fee":20000,
+
+        
+        "trainers":{
+            "main":"yash sir",
+            "webtech":"Maneesha mam",
+            "sql":"shivu sir"
+        }
+    }
+]
